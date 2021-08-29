@@ -6,7 +6,7 @@
 
 let sum = 0;
 let maxValue = 4000000
-for (let num1 = 0, num2=1; num2<4000000;) {
+for (let num1 = 0, num2=1; num2<maxValue;) {
     let actualNum = num1+num2;
     num1 = num2;
     num2 = actualNum; 
